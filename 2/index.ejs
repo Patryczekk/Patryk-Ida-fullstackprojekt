@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="/Patryk-Ida-fullstackprojekt/bootstrap.css">
 </head>
 
   <body>
@@ -19,13 +19,24 @@
       </nav>
     
 
-    <h3>Welcome to "THE NAME" restaurants official website. At our place you get to hang out with all the Residant Evil fanatics and eat all the delicious food me got. 
-    If you are new here check out our menu or get directly to booking a table for you and your fam.   
+    <h3>You are now more than welcome to book at table for you and your accompanying, pick a date and make a note of what you and others want to eat and we will set everything up
     </h3>
 
     <div class="navigation1">  <a href="index.html"> <h1>Home</h1>  </a>  </div>
     <div class="navigation2">  <a href="1/index.html"> <h1>Menu</h1>   </a>  </div>
-    <div class="navigation3">  <a href="2/index.html"> <h1>Order</h1>  </a>  </div>
+    
+
+    <form action="/postorder" method="POST">
+      <input type="date" id="start" name="order"
+       value="2021-03-01"
+       min="2021-03-01" max="2021-03-31">
+      <input type="text" name="note">
+      <button type="submit">confirm</button>
+    </form>
+
+    <% for( let i = 0; i < order.length; i++ ) { %>
+      <h1><%- order[i].date %>  </h1>
+    <% } %>
 
     <div class=""></div>
     
