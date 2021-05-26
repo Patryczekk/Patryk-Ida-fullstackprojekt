@@ -1,0 +1,26 @@
+{
+  "name": "Patryk-Ida-fullstackprojekt-right",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrykSroka21/Patryk-Ida-fullstackprojekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrykSroka21/Patryk-Ida-fullstackprojekt/issues"
+  },
+  "homepage": "https://github.com/PatrykSroka21/Patryk-Ida-fullstackprojekt#readme"
+}

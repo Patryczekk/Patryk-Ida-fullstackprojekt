@@ -1,1 +1,0 @@
-# Patryk-Ida-fullstackprojekt
